@@ -1,0 +1,6 @@
+0 Clay
+1 Glass
+2 Iron
+3 Wood
+4 Bronze
+5 Paper

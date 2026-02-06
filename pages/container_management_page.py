@@ -800,7 +800,7 @@ class ContainerManagementPage(QWidget):
 
     def toggle_camera(self):
         if self.camera is None:
-            self.camera = cv2.VideoCapture(1)
+            self.camera = cv2.VideoCapture(0)
             if not self.camera.isOpened():
                 QMessageBox.warning(self, "Error", "Cannot open camera")
                 self.camera = None
